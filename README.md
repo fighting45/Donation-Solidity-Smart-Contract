@@ -41,48 +41,43 @@ This project enables:
 
 ## 🖼️ Frontend (frontend/)
 ### Built with:
-HTML + Vanilla JavaScript
+- HTML + Vanilla JavaScript
 
-Viem for smart contract interaction
+- Viem for smart contract interaction
 
-MetaMask integration
+- MetaMask integration
 
-Custom Chain setup (e.g., Sepolia or Anvil local chain)
+- Custom Chain setup (e.g., Sepolia or Anvil local chain)
 
-#@ Features:
-🔌 Connect MetaMask wallet
+## Features:
+- 🔌 Connect MetaMask wallet
 
-💸 Donate ETH
+- 💸 Donate ETH
 
-💰 Check contract balance
+- 💰 Check contract balance
 
-🧾 View individual donation amount
+- 🧾 View individual donation amount
 
-🧑‍⚖️ Owner-only fund withdrawal
+- 🧑‍⚖️ Owner-only fund withdrawal
 
-### Folder Structure:
-
-frontend/
-├── index.html             # Main UI
-├── index-js.js            # All Viem client logic
-├── constants-js.js        # Contract address + ABI
-
-### 📂 File Structure
+## File Structure
 
 Donation-Solidity-Smart-Contract/
 ├── contracts/
-│   ├── FundMe.sol              # Donation smart contract
-│   └── PriceConvertor.sol      # Library for ETH/USD price conversion
+│ ├── FundMe.sol # Donation smart contract
+│ └── PriceConvertor.sol # Library for ETH/USD price conversion
 │
 ├── frontend/
-│   ├── index.html              # Frontend UI
-│   ├── index-js.js             # JavaScript logic with Viem
-│   ├── constants-js.js         # ABI and contract address
+│ ├── index.html # Frontend UI
+│ ├── index-js.js # JavaScript logic with Viem
+│ └── constants-js.js # ABI and contract address
 │
-├── scripts/                    # (Optional) Deployment scripts
-├── test/                       # (Optional) Contract tests
+├── scripts/ # (Optional) Deployment scripts
+├── test/ # (Optional) Contract tests
 ├── README.md
-└── package.json                # Project dependencies
+└── package.json # Project dependencies
+
+
 ## 🔧 Tech Stack
 Solidity (Smart Contract)
 
@@ -129,7 +124,6 @@ A: Pass chain: sepolia or your local anvil chain in the client constructor.
 ## 🏁 Final Note
 This repo provides a simple but complete example of building a smart contract with a functional frontend using modern tooling like Viem and Chainlink. Ideal for learning and hackathon-ready projects!
 
-Let me know if you want this turned into a real README.md file in your project.
 
 
 
