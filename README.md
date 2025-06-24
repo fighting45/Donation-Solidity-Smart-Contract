@@ -1,4 +1,4 @@
-# Donation Smart Contract (with Frontend)
+# Donation Smart Contract
 A full-stack Ethereum dApp that allows users to donate ETH with a minimum donation enforced in USD using Chainlink Price Feeds. Includes a simple HTML/JavaScript frontend built with Viem for wallet interaction.
 
 ## 📜 Overview
