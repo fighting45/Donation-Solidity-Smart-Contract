@@ -8,3 +8,4 @@ That has the following buttons which map to the solidity smart contract:
     - Have a test blockchain that we can call?
 - Get Balance 
 - Withdraw
+- Track accummulated funds & funders
