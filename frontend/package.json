@@ -1,0 +1,16 @@
+{
+  "name": "web3-full-stack-crash-course",
+  "version": "1.0.0",
+  "description": "Minimal html/js website That has the following buttons:",
+  "main": "index-js.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "viem": "^2.31.1"
+  }
+}
